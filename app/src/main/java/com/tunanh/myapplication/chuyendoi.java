@@ -1,5 +1,6 @@
 package com.tunanh.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,10 +20,25 @@ private Button bt_2;
         bt_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(chuyendoi.this,page1.class);
+                startActivities(intent);
             }
         });
         bt_3=(Button) findViewById(R.id.bt3);
+        bt_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(chuyendoi.this,relative_1.class);
+                startActivities(intent);
+            }
+        });
         bt_4=(Button) findViewById(R.id.bt4);
+        bt_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(chuyendoi.this,relative_1.class);
+                startActivities(intent);
+            }
+        });
     }
 }
