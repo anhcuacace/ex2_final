@@ -9,6 +9,6 @@ public class relative_1 extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.relative_1)
+        setContentView(R.layout.relative_1);
     }
 }
