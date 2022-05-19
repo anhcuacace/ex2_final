@@ -21,7 +21,7 @@ private Button bt_2;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(chuyendoi.this,page1.class);
-                startActivities(intent);
+                startActivity(intent);
             }
         });
         bt_3=(Button) findViewById(R.id.bt3);
@@ -29,7 +29,7 @@ private Button bt_2;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(chuyendoi.this,relative_1.class);
-                startActivities(intent);
+                startActivity(intent);
             }
         });
         bt_4=(Button) findViewById(R.id.bt4);
@@ -37,7 +37,7 @@ private Button bt_2;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(chuyendoi.this,relative_1.class);
-                startActivities(intent);
+                startActivity(intent);
             }
         });
     }
