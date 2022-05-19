@@ -81,12 +81,14 @@
 
     <TextView
         android:id="@+id/text6"
-        android:layout_width="0dp"
-        android:layout_height="83dp"
+        android:layout_width="244dp"
+        android:layout_height="263dp"
         android:layout_below="@id/text4"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
 
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
         android:layout_toLeftOf="@id/text3"
         android:layout_toRightOf="@id/text4"
         android:background="#C4C4C4"
